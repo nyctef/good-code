@@ -2,7 +2,7 @@ An attempt to figure out what I mean by "good code"
 
 #### The Single Responsibility Principle is king
 
-High cohesion: *A module should have one, and only one, reason to change.*
+**High cohesion:** *A module should have one, and only one, reason to change.*
 
 Much of the SOLID principles [actually just follow from SRP](solid-vs-srp.md).
 
@@ -14,7 +14,7 @@ Often, implementing the same idea at two different levels of abstraction should 
 When you have an interface, separating out implementations that do error handling, logging and the real work can result in
 much simpler code for the 'real work' part, and potentially automated generation of the error/logging code.
 
-Low coupling: *A reason to change should affect one, and only one, module*
+**Low coupling:** *A reason to change should affect one, and only one, module*
 
 .. because if a change affects more than one module, those modules are coupled together in spirit, even if not in code.
 
