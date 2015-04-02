@@ -27,13 +27,42 @@ Generally, prefer small cohesive classes where possible--while you may have to a
 changing each class should be small enough that this is not a problem.
 
 #### Tests pass in under a second
+- massive productivity boost
+- confidence
+- code at the speed of thought
 
 #### Pure and immutable where possible
+- pure functions are very easy to unit-test
+- being immutable removes a huge cognitive burden
+- Exception: usually the boundaries of a system (UI, DB)
+  - OO is good at modelling service abstractions (using state) / UI components (using state+inheritance)
 
 #### Permissive and general rather than defensive and specific
+- Defensive coding often just means lots of guard clauses and boilerplate checks
+- Finding simple solutions which handle all edge cases is preferable
 
 #### Use inheritance with caution
+- Inheritance of behaviour is generally a bad idea
+- Inheritance just to share methods is almost always a bad idea
+- Inheritance of pure data classes works reasonably well--so long as the domain model fits into the type
+system of the language (this is generally only true for simple models)
+- Design for inheritance - making small tweaks to behaviour
+  - good example: CookieAwareWebClient
+  - avoid protected fields
+  - use composition+DI instead for larger changes of behaviour
+
+Exceptions: inheritance when required by language/frameworks
+- eg sharing NUnit tests
 
 #### Interfaces are hard; implementation is easy
+- If you define boundaries correctly, changing individual implementations shouldn't affect system
+- usable API vs fastest API
+- thinking about API gives clues to implementation
+- Test-driven design
 
 #### Plain data objects are fine, even encouraged
+- easy to serialize / construct for tests
+- extension methods (C#) / immutable helper methods (other languages)
+- work very well with pure functions in terms of SRP/test
+- best API uses primitives + PDOs
+- prefer PDOs for wrapping primitives (where language makes it easy)
