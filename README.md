@@ -40,6 +40,8 @@ changing each class should be small enough that this is not a problem.
 #### Permissive and general rather than defensive and specific
 - Defensive coding often just means lots of guard clauses and boilerplate checks
 - Finding simple solutions which handle all edge cases is preferable
+- Use language constructs where possible to enforce other situations of defensive programming
+  - eg use `TaintedString` class intead of adding checks everywhere for bad strings
 
 #### Use inheritance with caution
 - Inheritance of behaviour is generally a bad idea
