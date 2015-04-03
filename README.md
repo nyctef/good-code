@@ -61,6 +61,9 @@ Exceptions: inheritance when required by language/frameworks
 - usable API vs fastest API
 - thinking about API gives clues to implementation
 - Test-driven design
+- tests are more important than code (?)
+  - tdd implementation tests vs acceptance tests vs regression tests?
+  - test names are more important than tests
 
 #### Plain data objects are fine, even encouraged
 - easy to serialize / construct for tests
