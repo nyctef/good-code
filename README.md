@@ -30,6 +30,7 @@ changing each class should be small enough that this is not a problem.
 - massive productivity boost
 - confidence
 - code at the speed of thought
+- ideally this is all of the tests, but it might be all the *relevant* tests (note this is harder but allows more leeway)
 
 #### Pure and immutable where possible
 - pure functions are very easy to unit-test
