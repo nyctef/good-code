@@ -54,6 +54,7 @@ system of the language (this is generally only true for simple models)
 - Design for inheritance - making small tweaks to behaviour
   - document how virtual methods are called - especially when one virtual method calls another
   - this often prevents you from changing implementation details in the base class
+  - eg https://msdn.microsoft.com/en-us/library/fxzs3wwx(v=vs.110).aspx
   - good example: CookieAwareWebClient
   - avoid protected fields
   - use composition+DI instead for larger changes of behaviour
