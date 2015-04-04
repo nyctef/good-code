@@ -26,6 +26,8 @@ put all code into one module.
 Generally, prefer small cohesive classes where possible--while you may have to add or change multiple classes, the ease of
 changing each class should be small enough that this is not a problem.
 
+- good architecture: each reason to change should have a single, obvious place to live (?)
+
 #### Tests pass in under a second
 - massive productivity boost
 - confidence
