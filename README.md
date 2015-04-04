@@ -52,6 +52,8 @@ changing each class should be small enough that this is not a problem.
 - Inheritance of pure data classes works reasonably well--so long as the domain model fits into the type
 system of the language (this is generally only true for simple models)
 - Design for inheritance - making small tweaks to behaviour
+  - document how virtual methods are called - especially when one virtual method calls another
+  - this often prevents you from changing implementation details in the base class
   - good example: CookieAwareWebClient
   - avoid protected fields
   - use composition+DI instead for larger changes of behaviour
