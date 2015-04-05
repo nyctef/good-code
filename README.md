@@ -8,7 +8,8 @@ Much of the SOLID principles [actually just follow from SRP](solid-vs-srp.md).
 **Low coupling:** *A reason to change should affect one, and only one, module*
 ...because if a change affects more than one module, those modules are coupled together in spirit, even if not in code.
 
-**Good architecture:** *Each reason to change should have an obvious place to live.* (?)
+**Good architecture:** *Each reason to change should have an obvious place to live.* (?) Not sure about this one, but it 
+feels about right
 
 [[More]](srp.md)
 
