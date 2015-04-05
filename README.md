@@ -77,3 +77,7 @@ Exceptions: inheritance when required by language/frameworks
 - work very well with pure functions in terms of SRP/test
 - best API uses primitives + PDOs
 - prefer PDOs for wrapping primitives (where language makes it easy)
+
+#### External resources
+- [C# Design Strategies (Jon Skeet/Pluralsight)](http://www.pluralsight.com/courses/csharp-design-strategies) A brief but comprehensive overview of what good code looks like and why it matters. Unfortunately not free.
+- [Boundaries (Gary Bernhardt)](https://www.youtube.com/watch?v=yTkzNHF6rMs) The main place I steal all my ideas from.
