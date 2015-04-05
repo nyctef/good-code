@@ -17,6 +17,8 @@ Much of the SOLID principles [actually just follow from SRP](solid-vs-srp.md).
 It's very attractive to try and be as DRY as possible, but for the long term maintainability is obviously more important. 
 Of course, the short *and* readable solutions are the best.
 
+[[More]](readability.md)
+
 #### Tests pass in under a second
 - massive productivity boost
 - confidence
