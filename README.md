@@ -79,5 +79,5 @@ Exceptions: inheritance when required by language/frameworks
 - prefer PDOs for wrapping primitives (where language makes it easy)
 
 #### External resources
-- [C# Design Strategies (Jon Skeet/Pluralsight)](http://www.pluralsight.com/courses/csharp-design-strategies) A brief but comprehensive overview of what good code looks like and why it matters. Unfortunately not free.
+- [C# Design Strategies (Jon Skeet/Pluralsight)](http://www.pluralsight.com/courses/csharp-design-strategies) A brief but comprehensive overview of what good code looks like and why it matters. Unfortunately not free. Just skip the stuff on various singleton implementations.
 - [Boundaries (Gary Bernhardt)](https://www.youtube.com/watch?v=yTkzNHF6rMs) The main place I steal all my ideas from.
