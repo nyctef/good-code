@@ -25,6 +25,8 @@ Of course, the short *and* readable solutions are the best.
 - confidence
 - code at the speed of thought
 - ideally this is all of the tests, but it might be all the *relevant* tests (note this is harder but allows more leeway)
+- for simple/hobby projects this might be 'run the program and inspect the output' -- the important part is having a fast
+feedback loop that provides confidence in the code.
 
 #### Pure and immutable where possible
 - pure functions are very easy to unit-test
