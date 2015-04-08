@@ -39,6 +39,7 @@ feedback loop that provides confidence in the code.
 - Finding simple solutions which handle all edge cases is preferable
 - Use language constructs where possible to enforce other situations of defensive programming
   - eg use `TaintedString` class intead of adding checks everywhere for bad strings
+- is this a reformulation of 'worse is better'?
 
 #### Use inheritance with caution
 - Inheritance of behaviour is generally a bad idea
