@@ -72,6 +72,7 @@ Exceptions: inheritance when required by language/frameworks
 - work very well with pure functions in terms of SRP/test
 - best API uses primitives + PDOs
 - prefer PDOs for wrapping primitives (where language makes it easy)
+- Law of Demeter doesn't apply to PDOs (at least in the simplistic form where you're counting dots)
 
 #### External resources
 - [C# Design Strategies (Jon Skeet/Pluralsight)](http://www.pluralsight.com/courses/csharp-design-strategies) A brief but comprehensive overview of what good code looks like and why it matters. Unfortunately not free. Just skip the stuff on various singleton implementations.
