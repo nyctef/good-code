@@ -45,7 +45,7 @@ feedback loop that provides confidence in the code.
 - Inheritance of behaviour is generally a bad idea
 - Inheritance just to share methods is almost always a bad idea
 - Inheritance of pure data classes works reasonably well--so long as the domain model fits into the type
-system of the language (this is generally only true for simple models)
+system of the language (this is generally only true for simple models -- see Eric Lippert's ['Wizards and Warriors'](http://ericlippert.com/2015/04/27/wizards-and-warriors-part-one/) article series for a good example)
 - Design for inheritance - making small tweaks to behaviour
   - document how virtual methods are called - especially when one virtual method calls another
   - this often prevents you from changing implementation details in the base class
